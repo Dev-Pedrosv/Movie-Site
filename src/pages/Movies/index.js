@@ -60,7 +60,6 @@ function Movies() {
   const [movie, setMovie] = useState([movies]);
 
   const changedMovie = (index) => {
-    console.log(movies[index]);
     setMovie(movies[index]);
   };
   const logout = () => {
