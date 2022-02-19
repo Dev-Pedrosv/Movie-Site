@@ -104,9 +104,9 @@ function Movies() {
           <a href="#">Minha lista</a>
           <img src={Bell} alt="bell" />
 
-          <C.Profile>
+          <C.Profile onClick={logout}>
             <img src={user.photo} alt="search" />
-            <button onClick={logout}>{user.name}</button>
+            <p>{user.name}</p>
           </C.Profile>
         </C.NavBar>
       </C.Header>

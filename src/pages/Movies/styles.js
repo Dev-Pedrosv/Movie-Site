@@ -40,14 +40,11 @@ export const NavBar = styled.div`
     }
   }
 
-  button,
+  p,
   a {
     font-weight: 600;
     font-size: 18px;
     line-height: 33px;
-    background-color: transparent;
-    outline: none;
-    border: none;
 
     color: #f9f9f9;
     text-decoration: none;
@@ -69,6 +66,7 @@ export const Profile = styled.div`
   align-items: center;
   justify-content: center;
   gap: 15px;
+  cursor: pointer;
   img {
     width: 40px;
     height: 40px;
